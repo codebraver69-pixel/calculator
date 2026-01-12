@@ -8,32 +8,36 @@
 </head>
 <body>
     <div id="contain">
-        <div id="display">
-        </div>
+        <input readonly id="display">
         <div id="result">
-            <h2 id="resulth2">0</h2>
+            <p id="presult">0</p>
         </div>
         <div id="buttondiv">
-            <button class="buttons function">+</button>
-            <button class="buttons">7</button>
-            <button class="buttons">8</button>
-            <button class="buttons">9</button>
-            <button class="buttons function">-</button>
-            <button class="buttons">4</button>
-            <button class="buttons">5</button>
-            <button class="buttons">6</button>
-            <button class="buttons function">*</button>
-            <button class="buttons">1</button>
-            <button class="buttons">2</button>
-            <button class="buttons">3</button>
-            <button class="buttons function">/</button>
-            <button class="buttons">0</button>
-            <button class="buttons">.</button>
-            <button class="buttons equal">=</button>
-            <button class="buttons function">C</button>
-            <button  class="buttons function">Del</button>
+            <button onclick="appendnumb('+')" class="buttons function">+</button>
+            <button onclick="appendnumb('7')" class="buttons">7</button>
+            <button onclick="appendnumb('8')" class="buttons">8</button>
+            <button onclick="appendnumb('9')" class="buttons">9</button>
+            <button onclick="appendnumb('-')" class="buttons function">-</button>
+            <button onclick="appendnumb('4')" class="buttons">4</button>
+            <button onclick="appendnumb('5')" class="buttons">5</button>
+            <button onclick="appendnumb('6')" class="buttons">6</button>
+            <button onclick="appendnumb('*')" class="buttons function">*</button>
+            <button onclick="appendnumb('1')" class="buttons">1</button>
+            <button onclick="appendnumb('2')" class="buttons">2</button>
+            <button onclick="appendnumb('3')" class="buttons">3</button>
+            <button onclick="appendnumb('/')" class="buttons function">/</button>
+            <button onclick="appendnumb('0')" class="buttons">0</button>
+            <button onclick="appendnumb('.')" class="buttons">.</button>
+            <button onclick="equal()" class="buttons equal">=</button>
+            <button onclick="cleartodisplay()" class="buttons function">C</button>
+            <button onclick="slicetodisplay()" class="buttons function">Del</button>
         </div>
     </div>
+
+
+
+
+    <script src="script.js"></script>
     
 </body>
 </html>

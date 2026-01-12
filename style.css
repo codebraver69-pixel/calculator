@@ -11,6 +11,10 @@
     height: 15%;
     justify-content: end;
     background-color: #021526;
+    color: #E2E2B6;
+    text-align: end;
+    font-size: 30px;
+    font-weight: bold;
 }
 #numberdisp{
     font-size: 50px;
@@ -21,8 +25,9 @@
     background-color: #03346E;
     color: #E2E2B6;
 }
-#resulth2{
+#result p{
     font-size: 50px;
+    font-weight: bold;
 }
 #buttondiv{
     display: grid;
